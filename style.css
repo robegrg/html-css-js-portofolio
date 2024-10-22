@@ -101,3 +101,25 @@ a:hover {
   overflow: hidden; /* ensures that elements that go beyond their max height are not visible */
   transition: all 0.3 ease-in-out;
 }
+
+.mobile--nav__links a {
+  display: block; /*makes the element take full width */
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+
+.mobile--nav__links li {
+  list-style: none;
+}
+
+.mobile--nav__links.open {
+  max-height: 300px;
+}
+
+.mobile--nav__hamburger__icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);
+}
