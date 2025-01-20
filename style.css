@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -79,8 +80,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 16px;
-  width: 16px;
+  height: 24px;
+  width: 30px;
   cursor: pointer;
 }
 
@@ -122,4 +123,149 @@ a:hover {
 
 .mobile--nav__hamburger__icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
+}
+
+.mobile--nav__hamburger__icon.open span:nth-child(2) {
+  opacity: 0;
+
+}
+
+.mobile--nav__hamburger__icon.open span:last-child {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.mobile--nav__hamburger__icon span:first-child{
+  transform: none;
+}
+
+.mobile--nav__hamburger__icon span:first-child{
+  opacity: 1;
+}
+
+.mobile--nav__hamburger__icon span:first-child{
+  transform: none;
+}
+
+/* Sections */
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section--pic__container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+
+}
+
+/* Profile Section */
+
+#profile {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  height: 80vh;
+}
+
+
+
+.section--text {
+  align-self: center;
+  text-align: center;
+}
+
+.section--text p {
+  font-weight: 600;
+}
+
+.section--text__p1 {
+text-align: center;  
+font-size: 1.75rem;
+margin-bottom: 1rem;
+}
+
+.section--text__p2 {
+text-align: center;  
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/* Icons */
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+/* Buttons */
+
+.btn--container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn--color1, .btn--color2 {
+  border: rgb(85, 83, 83) 0.1rem solid;
+  /*remove later if needed */
+   border-radius: 2rem;
+   /* justify-content: center; */
+   text-align: center;
+   transition: all 400ms ease;
+   padding: 1rem 2rem;
+   line-height: 1rem;
+   font-size: 1rem;
+  
+}
+
+.btn--color1:hover, .btn--color2:hover {
+cursor: pointer;
+}
+
+.btn--color1, .btn--color2:hover {
+background: rgb(53, 53, 53);
+color: white;
+}
+
+.btn--color1:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.btn--color2 {
+  background: none;
+}
+
+.btn--color2:hover {
+  background: rgb(0, 0, 0) 0.1rem solid;
+}
+
+.btn--container {
+  gap: 1remß;
 }
