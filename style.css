@@ -1,6 +1,6 @@
 /* General style */
 
-@import url('https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -158,8 +158,8 @@ section {
 
 .section--pic__container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 375px;
+  width: 375px;
   margin: auto 0;
 
 }
@@ -167,11 +167,8 @@ section {
 /* Profile Section */
 
 #profile {
-  align-items: center;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 5rem;
   height: 80vh;
 }
@@ -189,12 +186,11 @@ section {
 
 .section--text__p1 {
 text-align: center;  
-font-size: 1.75rem;
-margin-bottom: 1rem;
 }
 
 .section--text__p2 {
-text-align: center;  
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
 
 .title {
@@ -234,15 +230,6 @@ text-align: center;
 
 .btn--color1, .btn--color2 {
   border: rgb(85, 83, 83) 0.1rem solid;
-  /*remove later if needed */
-   border-radius: 2rem;
-   /* justify-content: center; */
-   text-align: center;
-   transition: all 400ms ease;
-   padding: 1rem 2rem;
-   line-height: 1rem;
-   font-size: 1rem;
-  
 }
 
 .btn--color1:hover, .btn--color2:hover {
@@ -267,5 +254,5 @@ color: white;
 }
 
 .btn--container {
-  gap: 1remß;
+  gap: 1rem;
 }
