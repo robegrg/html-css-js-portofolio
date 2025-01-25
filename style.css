@@ -158,8 +158,8 @@ section {
 
 .section--pic__container {
   display: flex;
-  height: 375px;
-  width: 375px;
+  height: 400px;
+  width: 400px;
   margin: auto 0;
 
 }
@@ -255,4 +255,68 @@ color: white;
 
 .btn--container {
   gap: 1rem;
+}
+
+/* remove later */
+
+.section--container {
+  display: flex;
+  align-items: flex-start; /* Aligns items at the top */
+  gap: 1rem;
+}
+
+.about--details__container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+}
+
+/* About section */
+
+#about {
+  position: relative;
+}
+.about--containers{
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.about--details__container{
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about--containers, .about--details__container{
+  display: flex;
+}
+
+.about--pic{
+  border-radius: 2rem;
+}
+
+.arrow{
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details--container{
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section--container{
+  gap: 4rem;
+ 
+}
+
+.section--pic__container{
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
