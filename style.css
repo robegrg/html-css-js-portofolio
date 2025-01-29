@@ -261,8 +261,9 @@ color: white;
 
 .section--container {
   display: flex;
-  align-items: flex-start; /* Aligns items at the top */
+  align-items: center; /* previously flex-start */
   gap: 1rem;
+  /* height: 80%; */
 }
 
 .about--details__container {
@@ -276,6 +277,7 @@ color: white;
 #about {
   position: relative;
 }
+
 .about--containers{
   gap: 2rem;
   margin-bottom: 2rem;
@@ -295,12 +297,12 @@ color: white;
 }
 
 .arrow{
-  position: absolute;
+  position: absolute ;
   right: -5rem;
   bottom: 2.5rem;
 }
 
-.details--container{
+.details--containers{
   padding: 1.5rem;
   flex: 1;
   background: white;
@@ -320,3 +322,48 @@ color: white;
   width: 400px;
   margin: auto 0;
 }
+
+/* Experience Section */
+#experience {
+  position: relative;
+}
+
+.experience--subtitle {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience--details__containers{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article--container{
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+.about--containers{
+  justify-content: center;
+  gap: 3rem;
+
+}
+
+article{
+display: flex;
+width: 10rem;
+justify-content: space-around;
+gap: 0.5rem;
+}
+
+#article .icon{
+  cursor: default;
+}
+ 
