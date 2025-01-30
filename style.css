@@ -127,7 +127,6 @@ a:hover {
 
 .mobile--nav__hamburger__icon.open span:nth-child(2) {
   opacity: 0;
-
 }
 
 .mobile--nav__hamburger__icon.open span:last-child {
@@ -161,7 +160,6 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
-
 }
 
 /* Profile Section */
@@ -172,8 +170,6 @@ section {
   gap: 5rem;
   height: 80vh;
 }
-
-
 
 .section--text {
   align-self: center;
@@ -263,13 +259,13 @@ color: white;
   display: flex;
   align-items: center; /* previously flex-start */
   gap: 1rem;
-  /* height: 80%; */
+  height: 80%;
 }
 
 .about--details__container {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
+  justify-content: flex-start;
 }
 
 /* About section */
@@ -283,6 +279,7 @@ color: white;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+
 .about--details__container{
   justify-content: center;
   flex-direction: column;
@@ -304,7 +301,7 @@ color: white;
 
 .details--containers{
   padding: 1.5rem;
-  flex: 1;
+  flex: column;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -314,7 +311,6 @@ color: white;
 
 .section--container{
   gap: 4rem;
- 
 }
 
 .section--pic__container{
@@ -352,8 +348,7 @@ color: white;
 
 .about--containers{
   justify-content: center;
-  gap: 3rem;
-
+  gap: 4rem;
 }
 
 article{
@@ -366,4 +361,6 @@ gap: 0.5rem;
 #article .icon{
   cursor: default;
 }
- 
+
+/* Projects section */
+
