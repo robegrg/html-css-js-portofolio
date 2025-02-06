@@ -1,95 +1,106 @@
 @media screen and (max-width: 1400px) {
-  #profile{
+  #profile {
     height: 83vh;
     margin-bottom: 6rem;
   }
-  .about--containers{
+  .about--containers {
     flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  #desktop--nav{
+  #desktop--nav {
     display:none;
   }
-  #mobile--nav{
+  #mobile--nav {
     display: flex;
   }
-  #experience, .experience--details__containers{
+  #experience,
+  .experience--details__containers {
     margin-top: 2rem;
   }
-  #profile, .section--container{
+  #profile,
+  .section--container {
     display: block;
   }
-  .arrow{
+  .arrow {
     display: none;
   }
-  section, .section--container{
+  section,
+  .section--container {
     height: fit-content;
   }
-  section{
+  section {
     margin: 0 5%;
   }
-  .section--pic__container{
+  .section--pic__container {
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
   }
-  .about--containers{
+  .about--containers {
     margin-top: 0;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #contact, footer{
+  #contact,
+  footer {
     height: 40vh;
   }
-  #profile{
+  #profile {
     height: 83vh;
     margin-bottom: 0;
   }
-  article{
+  article {
     font-size:1rem;
   }
-  footer nav{
+  footer nav {
     height: fit-content;
     margin-bottom: 2rem;
   }
-  .about--containers, .contact--info--upper-container, .btn--container{
+  .about--containers,
+  .contact--info--upper--container,
+  .btn--container {
     flex-wrap: wrap;
   }
-  .contact--info--container{
+  .contact--info--container {
     margin: 0;
   }
-  .contact--info--container p, .nav--links li a {
+  .contact--info--container p,
+  .nav--links li a {
     font-size: 1rem;
   }
-  .experience--subtitle{
+  .experience--subtitle {
     font-size: 1.25rem;
   }
   .logo {
     font-size: 1.5rem;
   }
-  .nav--links--container{
+  .dekstop--nav__links {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
   }
-  .nav--links--container{
+  .section--pic__container {
     width: auto;
     height: 46vw;
     justify-content: center;
   }
-  .section--text__p2{
+  .section--text__p2 {
     font-size: 1.25rem;
   }
-  .title{
+  .title {
     font-size: 2rem;
   }
-  .text--container{
+  .text--container {
     text-align: justify;
   }
-.desktop--nav__footer{
+.desktop--nav__footer {
   text-align: center;
   flex-direction: column;
 }

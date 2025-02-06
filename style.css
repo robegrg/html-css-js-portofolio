@@ -39,7 +39,7 @@ nav {
 .desktop--nav__links {
   gap: 2rem;
   display: flex;
-  list-style: none; /*remove the bullet points */
+  list-style: none; 
   font-size: 1.5rem;
   text-decoration: none;
 }
